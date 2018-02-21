@@ -1,0 +1,162 @@
+2018-02-20 04:57:55.405 CET [3034] LOG:  listening on IPv6 address "::1", port 5432
+2018-02-20 04:57:55.405 CET [3034] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-02-20 04:57:55.406 CET [3034] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-02-20 04:57:55.424 CET [3035] LOG:  database system was shut down at 2018-02-20 04:56:54 CET
+2018-02-20 04:57:55.434 CET [3034] LOG:  database system is ready to accept connections
+2018-02-20 04:57:59.067 CET [3083] ERROR:  database "test" does not exist
+2018-02-20 04:57:59.067 CET [3083] STATEMENT:  DROP DATABASE test;
+2018-02-20 04:57:59.073 CET [3036] LOG:  checkpoint starting: immediate force wait flush-all
+2018-02-20 04:57:59.082 CET [3036] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.000 s, total=0.009 s; sync files=3, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=2 kB
+2018-02-20 04:57:59.287 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 04:57:59.291 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=2 kB
+2018-02-20 04:58:05.601 CET [3174] FATAL:  role "test" does not exist
+2018-02-20 04:58:05.603 CET [3176] FATAL:  role "test" does not exist
+2018-02-20 05:12:59.917 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 05:16:33.330 CET [3036] LOG:  checkpoint complete: wrote 2132 buffers (1.6%); 0 WAL file(s) added, 38 removed, 0 recycled; write=213.307 s, sync=0.005 s, total=213.413 s; sync files=43, longest=0.000 s, average=0.000 s; distance=629551 kB, estimate=629551 kB
+2018-02-20 05:28:05.682 CET [12758] FATAL:  role "test" does not exist
+2018-02-20 05:42:59.111 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 05:56:29.417 CET [3036] LOG:  checkpoint complete: wrote 98607 buffers (75.2%); 0 WAL file(s) added, 162 removed, 0 recycled; write=809.963 s, sync=0.009 s, total=810.306 s; sync files=10, longest=0.006 s, average=0.000 s; distance=2655292 kB, estimate=2655292 kB
+2018-02-20 05:57:59.507 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 06:11:29.352 CET [3036] LOG:  checkpoint complete: wrote 98655 buffers (75.3%); 0 WAL file(s) added, 134 removed, 28 recycled; write=809.546 s, sync=0.011 s, total=809.844 s; sync files=10, longest=0.008 s, average=0.001 s; distance=2646403 kB, estimate=2654403 kB
+2018-02-20 06:12:59.442 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 06:26:29.378 CET [3036] LOG:  checkpoint complete: wrote 98517 buffers (75.2%); 0 WAL file(s) added, 133 removed, 28 recycled; write=809.642 s, sync=0.010 s, total=809.936 s; sync files=10, longest=0.008 s, average=0.001 s; distance=2644147 kB, estimate=2653377 kB
+2018-02-20 06:27:59.468 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 06:41:29.305 CET [3036] LOG:  checkpoint complete: wrote 98602 buffers (75.2%); 0 WAL file(s) added, 131 removed, 30 recycled; write=809.548 s, sync=0.015 s, total=809.836 s; sync files=10, longest=0.012 s, average=0.001 s; distance=2633484 kB, estimate=2651388 kB
+2018-02-20 06:42:59.396 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 06:56:29.309 CET [3036] LOG:  checkpoint complete: wrote 98581 buffers (75.2%); 0 WAL file(s) added, 131 removed, 29 recycled; write=809.642 s, sync=0.005 s, total=809.913 s; sync files=10, longest=0.003 s, average=0.000 s; distance=2627275 kB, estimate=2648977 kB
+2018-02-20 06:57:59.399 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 06:58:05.729 CET [9007] FATAL:  role "test" does not exist
+2018-02-20 07:11:29.349 CET [3036] LOG:  checkpoint complete: wrote 98765 buffers (75.4%); 0 WAL file(s) added, 155 removed, 6 recycled; write=809.665 s, sync=0.059 s, total=809.950 s; sync files=225, longest=0.011 s, average=0.000 s; distance=2636163 kB, estimate=2647695 kB
+2018-02-20 07:12:59.440 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 07:26:29.268 CET [3036] LOG:  checkpoint complete: wrote 99142 buffers (75.6%); 0 WAL file(s) added, 153 removed, 33 recycled; write=809.613 s, sync=0.005 s, total=809.828 s; sync files=15, longest=0.001 s, average=0.000 s; distance=3042403 kB, estimate=3042403 kB
+2018-02-20 07:27:59.332 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 07:41:29.240 CET [3036] LOG:  checkpoint complete: wrote 98704 buffers (75.3%); 0 WAL file(s) added, 150 removed, 34 recycled; write=809.672 s, sync=0.010 s, total=809.907 s; sync files=11, longest=0.007 s, average=0.000 s; distance=3018069 kB, estimate=3039970 kB
+2018-02-20 07:42:59.331 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 07:56:29.273 CET [3036] LOG:  checkpoint complete: wrote 99202 buffers (75.7%); 0 WAL file(s) added, 151 removed, 34 recycled; write=809.716 s, sync=0.013 s, total=809.942 s; sync files=13, longest=0.010 s, average=0.001 s; distance=3022357 kB, estimate=3038209 kB
+2018-02-20 07:57:59.363 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 08:11:29.263 CET [3036] LOG:  checkpoint complete: wrote 98922 buffers (75.5%); 0 WAL file(s) added, 148 removed, 36 recycled; write=809.659 s, sync=0.002 s, total=809.899 s; sync files=11, longest=0.000 s, average=0.000 s; distance=3010555 kB, estimate=3035443 kB
+2018-02-20 08:12:59.353 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 08:26:29.273 CET [3036] LOG:  checkpoint complete: wrote 98869 buffers (75.4%); 0 WAL file(s) added, 146 removed, 36 recycled; write=809.656 s, sync=0.011 s, total=809.919 s; sync files=12, longest=0.008 s, average=0.000 s; distance=2988257 kB, estimate=3030725 kB
+2018-02-20 08:27:59.364 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 08:28:05.777 CET [5241] FATAL:  terminating autovacuum process due to administrator command
+2018-02-20 08:28:06.042 CET [3036] LOG:  checkpoint complete: wrote 11965 buffers (9.1%); 0 WAL file(s) added, 25 removed, 158 recycled; write=6.521 s, sync=0.000 s, total=6.677 s; sync files=0, longest=0.000 s, average=0.000 s; distance=2995837 kB, estimate=3027236 kB
+2018-02-20 08:28:06.042 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 08:28:06.076 CET [3036] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 46 recycled; write=0.001 s, sync=0.000 s, total=0.034 s; sync files=2, longest=0.000 s, average=0.000 s; distance=751240 kB, estimate=2799636 kB
+2018-02-20 08:28:06.183 CET [5281] ERROR:  database "test" does not exist
+2018-02-20 08:28:06.183 CET [5281] STATEMENT:  DROP DATABASE test;
+2018-02-20 08:28:06.187 CET [3036] LOG:  checkpoint starting: immediate force wait flush-all
+2018-02-20 08:28:06.193 CET [3036] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.000 s, total=0.006 s; sync files=3, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=2519673 kB
+2018-02-20 08:28:06.399 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 08:28:06.404 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.004 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=2267706 kB
+2018-02-20 08:28:32.907 CET [5440] FATAL:  role "test" does not exist
+2018-02-20 08:28:32.908 CET [5442] FATAL:  role "test" does not exist
+2018-02-20 08:43:06.325 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 08:43:06.587 CET [3036] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 35 removed, 118 recycled; write=0.101 s, sync=0.017 s, total=0.262 s; sync files=45, longest=0.000 s, average=0.000 s; distance=2517667 kB, estimate=2517667 kB
+2018-02-20 08:58:33.009 CET [15041] FATAL:  role "test" does not exist
+2018-02-20 09:13:06.742 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 09:26:36.528 CET [3036] LOG:  checkpoint complete: wrote 5707 buffers (4.4%); 0 WAL file(s) added, 247 removed, 35 recycled; write=809.258 s, sync=0.204 s, total=809.786 s; sync files=12, longest=0.132 s, average=0.016 s; distance=4608177 kB, estimate=4608177 kB
+2018-02-20 09:28:07.003 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 09:41:37.880 CET [3036] LOG:  checkpoint complete: wrote 8864 buffers (6.8%); 0 WAL file(s) added, 248 removed, 34 recycled; write=809.984 s, sync=0.610 s, total=810.876 s; sync files=12, longest=0.289 s, average=0.050 s; distance=4626709 kB, estimate=4626709 kB
+2018-02-20 09:43:07.346 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 09:56:37.764 CET [3036] LOG:  checkpoint complete: wrote 7602 buffers (5.8%); 0 WAL file(s) added, 247 removed, 38 recycled; write=809.675 s, sync=0.470 s, total=810.418 s; sync files=13, longest=0.261 s, average=0.036 s; distance=4669868 kB, estimate=4669868 kB
+2018-02-20 09:58:07.102 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 10:11:37.694 CET [3036] LOG:  checkpoint complete: wrote 6524 buffers (5.0%); 0 WAL file(s) added, 244 removed, 40 recycled; write=809.959 s, sync=0.389 s, total=810.592 s; sync files=13, longest=0.182 s, average=0.029 s; distance=4649203 kB, estimate=4667802 kB
+2018-02-20 10:13:07.398 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 10:26:37.869 CET [3036] LOG:  checkpoint complete: wrote 6778 buffers (5.2%); 0 WAL file(s) added, 240 removed, 42 recycled; write=809.660 s, sync=0.551 s, total=810.471 s; sync files=11, longest=0.234 s, average=0.050 s; distance=4624075 kB, estimate=4663429 kB
+2018-02-20 10:28:07.089 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 10:28:33.078 CET [11340] FATAL:  role "test" does not exist
+2018-02-20 10:41:37.763 CET [3036] LOG:  checkpoint complete: wrote 6140 buffers (4.7%); 0 WAL file(s) added, 265 removed, 17 recycled; write=809.913 s, sync=0.513 s, total=810.673 s; sync files=15, longest=0.244 s, average=0.034 s; distance=4623123 kB, estimate=4659398 kB
+2018-02-20 10:43:07.349 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 10:56:37.815 CET [3036] LOG:  checkpoint complete: wrote 5692 buffers (4.3%); 0 WAL file(s) added, 268 removed, 41 recycled; write=809.708 s, sync=0.464 s, total=810.466 s; sync files=34, longest=0.193 s, average=0.013 s; distance=5059722 kB, estimate=5059722 kB
+2018-02-20 10:58:07.535 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 11:11:37.968 CET [3036] LOG:  checkpoint complete: wrote 5963 buffers (4.5%); 0 WAL file(s) added, 246 removed, 63 recycled; write=809.504 s, sync=0.582 s, total=810.433 s; sync files=187, longest=0.301 s, average=0.003 s; distance=5070810 kB, estimate=5070810 kB
+2018-02-20 11:13:07.502 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 11:26:37.940 CET [3036] LOG:  checkpoint complete: wrote 4796 buffers (3.7%); 0 WAL file(s) added, 201 removed, 87 recycled; write=809.508 s, sync=0.614 s, total=810.437 s; sync files=98, longest=0.270 s, average=0.006 s; distance=4703691 kB, estimate=5034098 kB
+2018-02-20 11:28:07.460 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 11:41:37.884 CET [3036] LOG:  checkpoint complete: wrote 6064 buffers (4.6%); 0 WAL file(s) added, 222 removed, 59 recycled; write=809.599 s, sync=0.543 s, total=810.424 s; sync files=18, longest=0.175 s, average=0.030 s; distance=4615939 kB, estimate=4992282 kB
+2018-02-20 11:43:07.756 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 11:56:37.699 CET [3036] LOG:  checkpoint complete: wrote 6553 buffers (5.0%); 0 WAL file(s) added, 266 removed, 44 recycled; write=809.328 s, sync=0.338 s, total=809.942 s; sync files=14, longest=0.115 s, average=0.024 s; distance=5074165 kB, estimate=5074165 kB
+2018-02-20 11:58:07.553 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 11:58:33.137 CET [29757] FATAL:  terminating autovacuum process due to administrator command
+2018-02-20 11:58:33.485 CET [3036] LOG:  checkpoint complete: wrote 5814 buffers (4.4%); 0 WAL file(s) added, 49 removed, 260 recycled; write=25.699 s, sync=0.000 s, total=25.932 s; sync files=0, longest=0.000 s, average=0.000 s; distance=5055582 kB, estimate=5072307 kB
+2018-02-20 11:58:33.485 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 11:58:33.543 CET [3036] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 79 recycled; write=0.001 s, sync=0.000 s, total=0.058 s; sync files=2, longest=0.000 s, average=0.000 s; distance=1307576 kB, estimate=4695834 kB
+2018-02-20 11:58:33.571 CET [30064] ERROR:  database "test" does not exist
+2018-02-20 11:58:33.571 CET [30064] STATEMENT:  DROP DATABASE test;
+2018-02-20 11:58:33.575 CET [3036] LOG:  checkpoint starting: immediate force wait flush-all
+2018-02-20 11:58:33.581 CET [3036] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.005 s; sync files=3, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=4226251 kB
+2018-02-20 11:58:33.800 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 11:58:33.804 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=3803626 kB
+2018-02-20 11:59:56.533 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 12:01:15.301 CET [30916] FATAL:  role "test" does not exist
+2018-02-20 12:01:15.304 CET [30919] FATAL:  role "test" does not exist
+2018-02-20 12:03:02.994 CET [3036] LOG:  checkpoint complete: wrote 27 buffers (0.0%); 0 WAL file(s) added, 284 removed, 254 recycled; write=185.820 s, sync=0.013 s, total=186.461 s; sync files=55, longest=0.000 s, average=0.000 s; distance=8813702 kB, estimate=8813702 kB
+2018-02-20 12:31:15.454 CET [8150] FATAL:  role "test" does not exist
+2018-02-20 12:36:19.650 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 12:41:39.733 CET [3036] LOG:  checkpoint complete: wrote 5409 buffers (4.1%); 0 WAL file(s) added, 537 removed, 1 recycled; write=319.159 s, sync=0.179 s, total=320.083 s; sync files=24, longest=0.048 s, average=0.007 s; distance=8801760 kB, estimate=8812508 kB
+2018-02-20 12:42:30.834 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 12:48:24.765 CET [3036] LOG:  checkpoint complete: wrote 4842 buffers (3.7%); 0 WAL file(s) added, 537 removed, 1 recycled; write=352.803 s, sync=0.400 s, total=353.931 s; sync files=24, longest=0.138 s, average=0.016 s; distance=8814584 kB, estimate=8814584 kB
+2018-02-20 12:49:20.998 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 12:54:59.823 CET [3036] LOG:  checkpoint complete: wrote 3658 buffers (2.8%); 0 WAL file(s) added, 537 removed, 1 recycled; write=337.458 s, sync=0.662 s, total=338.825 s; sync files=23, longest=0.245 s, average=0.028 s; distance=8814607 kB, estimate=8814607 kB
+2018-02-20 12:55:45.074 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:00:49.928 CET [3036] LOG:  checkpoint complete: wrote 4664 buffers (3.6%); 0 WAL file(s) added, 537 removed, 1 recycled; write=303.922 s, sync=0.172 s, total=304.853 s; sync files=24, longest=0.050 s, average=0.007 s; distance=8814604 kB, estimate=8814607 kB
+2018-02-20 13:01:37.009 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:07:24.221 CET [3036] LOG:  checkpoint complete: wrote 4088 buffers (3.1%); 0 WAL file(s) added, 537 removed, 1 recycled; write=346.262 s, sync=0.255 s, total=347.211 s; sync files=22, longest=0.031 s, average=0.011 s; distance=8814661 kB, estimate=8814661 kB
+2018-02-20 13:08:41.321 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:16:23.328 CET [3036] LOG:  checkpoint complete: wrote 2633 buffers (2.0%); 0 WAL file(s) added, 537 removed, 1 recycled; write=460.792 s, sync=0.510 s, total=462.007 s; sync files=24, longest=0.050 s, average=0.021 s; distance=8814496 kB, estimate=8814645 kB
+2018-02-20 13:17:43.815 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:25:36.695 CET [3036] LOG:  checkpoint complete: wrote 2582 buffers (2.0%); 0 WAL file(s) added, 537 removed, 1 recycled; write=471.906 s, sync=0.278 s, total=472.880 s; sync files=22, longest=0.082 s, average=0.012 s; distance=8814603 kB, estimate=8814641 kB
+2018-02-20 13:26:37.448 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:32:11.140 CET [3036] LOG:  checkpoint complete: wrote 3830 buffers (2.9%); 0 WAL file(s) added, 537 removed, 1 recycled; write=332.339 s, sync=0.592 s, total=333.691 s; sync files=23, longest=0.177 s, average=0.025 s; distance=8814588 kB, estimate=8814635 kB
+2018-02-20 13:33:08.541 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:39:36.750 CET [3036] LOG:  checkpoint complete: wrote 2992 buffers (2.3%); 0 WAL file(s) added, 537 removed, 1 recycled; write=386.919 s, sync=0.635 s, total=388.209 s; sync files=24, longest=0.277 s, average=0.026 s; distance=8814583 kB, estimate=8814630 kB
+2018-02-20 13:40:43.802 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:45:52.171 CET [3036] LOG:  checkpoint complete: wrote 2706 buffers (2.1%); 0 WAL file(s) added, 537 removed, 1 recycled; write=307.310 s, sync=0.376 s, total=308.368 s; sync files=21, longest=0.097 s, average=0.017 s; distance=8814593 kB, estimate=8814626 kB
+2018-02-20 13:46:36.114 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:51:54.745 CET [3036] LOG:  checkpoint complete: wrote 3809 buffers (2.9%); 0 WAL file(s) added, 537 removed, 1 recycled; write=317.232 s, sync=0.629 s, total=318.630 s; sync files=22, longest=0.257 s, average=0.028 s; distance=8814600 kB, estimate=8814624 kB
+2018-02-20 13:52:48.898 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 13:58:40.733 CET [3036] LOG:  checkpoint complete: wrote 3647 buffers (2.8%); 0 WAL file(s) added, 537 removed, 1 recycled; write=350.865 s, sync=0.296 s, total=351.834 s; sync files=23, longest=0.113 s, average=0.012 s; distance=8814635 kB, estimate=8814635 kB
+2018-02-20 13:59:37.213 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:01:15.546 CET [4406] FATAL:  role "test" does not exist
+2018-02-20 14:05:40.908 CET [3036] LOG:  checkpoint complete: wrote 3190 buffers (2.4%); 0 WAL file(s) added, 537 removed, 1 recycled; write=362.781 s, sync=0.194 s, total=363.694 s; sync files=24, longest=0.059 s, average=0.008 s; distance=8814545 kB, estimate=8814626 kB
+2018-02-20 14:06:38.915 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:12:55.975 CET [3036] LOG:  checkpoint complete: wrote 2794 buffers (2.1%); 0 WAL file(s) added, 537 removed, 1 recycled; write=375.705 s, sync=0.652 s, total=377.059 s; sync files=22, longest=0.132 s, average=0.029 s; distance=8814592 kB, estimate=8814622 kB
+2018-02-20 14:13:56.589 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:20:20.372 CET [3036] LOG:  checkpoint complete: wrote 2492 buffers (1.9%); 0 WAL file(s) added, 537 removed, 1 recycled; write=382.394 s, sync=0.646 s, total=383.782 s; sync files=21, longest=0.197 s, average=0.030 s; distance=8814591 kB, estimate=8814619 kB
+2018-02-20 14:21:14.426 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:26:34.268 CET [3036] LOG:  checkpoint complete: wrote 3410 buffers (2.6%); 0 WAL file(s) added, 537 removed, 1 recycled; write=318.524 s, sync=0.592 s, total=319.841 s; sync files=22, longest=0.248 s, average=0.026 s; distance=8814586 kB, estimate=8814616 kB
+2018-02-20 14:27:29.747 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:34:12.161 CET [3036] LOG:  checkpoint complete: wrote 2914 buffers (2.2%); 0 WAL file(s) added, 537 removed, 1 recycled; write=401.339 s, sync=0.310 s, total=402.414 s; sync files=24, longest=0.113 s, average=0.012 s; distance=8814598 kB, estimate=8814614 kB
+2018-02-20 14:35:22.690 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:42:07.665 CET [3036] LOG:  checkpoint complete: wrote 2676 buffers (2.0%); 0 WAL file(s) added, 537 removed, 1 recycled; write=403.426 s, sync=0.781 s, total=404.974 s; sync files=21, longest=0.247 s, average=0.037 s; distance=8814584 kB, estimate=8814611 kB
+2018-02-20 14:43:06.658 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:49:12.915 CET [3036] LOG:  checkpoint complete: wrote 3452 buffers (2.6%); 0 WAL file(s) added, 537 removed, 1 recycled; write=364.687 s, sync=0.793 s, total=366.256 s; sync files=25, longest=0.367 s, average=0.031 s; distance=8814646 kB, estimate=8814646 kB
+2018-02-20 14:50:11.988 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 14:57:10.002 CET [3036] LOG:  checkpoint complete: wrote 3068 buffers (2.3%); 0 WAL file(s) added, 537 removed, 1 recycled; write=416.861 s, sync=0.364 s, total=418.013 s; sync files=20, longest=0.146 s, average=0.018 s; distance=8814582 kB, estimate=8814640 kB
+2018-02-20 14:58:18.585 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 15:04:34.584 CET [3036] LOG:  checkpoint complete: wrote 2989 buffers (2.3%); 0 WAL file(s) added, 537 removed, 1 recycled; write=374.994 s, sync=0.226 s, total=375.999 s; sync files=26, longest=0.070 s, average=0.008 s; distance=8814546 kB, estimate=8814630 kB
+2018-02-20 15:05:29.021 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 15:11:54.435 CET [3036] LOG:  checkpoint complete: wrote 3284 buffers (2.5%); 0 WAL file(s) added, 537 removed, 1 recycled; write=383.918 s, sync=0.669 s, total=385.413 s; sync files=20, longest=0.304 s, average=0.033 s; distance=8814765 kB, estimate=8814765 kB
+2018-02-20 15:12:58.716 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 15:20:04.623 CET [3036] LOG:  checkpoint complete: wrote 3037 buffers (2.3%); 0 WAL file(s) added, 537 removed, 1 recycled; write=424.573 s, sync=0.581 s, total=425.906 s; sync files=24, longest=0.069 s, average=0.024 s; distance=8814424 kB, estimate=8814731 kB
+2018-02-20 15:21:23.970 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 15:28:20.189 CET [3036] LOG:  checkpoint complete: wrote 2519 buffers (1.9%); 0 WAL file(s) added, 537 removed, 1 recycled; write=415.033 s, sync=0.414 s, total=416.218 s; sync files=20, longest=0.160 s, average=0.020 s; distance=8814600 kB, estimate=8814718 kB
+2018-02-20 15:29:17.424 CET [3036] LOG:  checkpoint starting: xlog
+2018-02-20 15:31:15.632 CET [31396] FATAL:  terminating autovacuum process due to administrator command
+2018-02-20 15:31:16.135 CET [3036] LOG:  checkpoint complete: wrote 3124 buffers (2.4%); 0 WAL file(s) added, 250 removed, 288 recycled; write=118.303 s, sync=0.000 s, total=118.711 s; sync files=0, longest=0.000 s, average=0.000 s; distance=8814643 kB, estimate=8814710 kB
+2018-02-20 15:31:16.135 CET [3036] LOG:  checkpoint starting: immediate force wait
+2018-02-20 15:31:16.285 CET [3036] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 197 recycled; write=0.001 s, sync=0.000 s, total=0.149 s; sync files=1, longest=0.000 s, average=0.000 s; distance=3234586 kB, estimate=8256698 kB
+2018-02-20 15:46:16.380 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 15:46:16.391 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.011 s; sync files=1, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=7431028 kB
+2018-02-20 16:01:16.413 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 16:01:16.466 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.026 s, total=0.052 s; sync files=23, longest=0.001 s, average=0.001 s; distance=163 kB, estimate=6687941 kB
+2018-02-20 18:01:17.066 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 18:01:17.094 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.014 s, total=0.028 s; sync files=23, longest=0.001 s, average=0.000 s; distance=146 kB, estimate=6019162 kB
+2018-02-20 18:16:17.195 CET [3036] LOG:  checkpoint starting: time
+2018-02-20 18:16:17.205 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.010 s; sync files=17, longest=0.000 s, average=0.000 s; distance=130 kB, estimate=5417259 kB
+2018-02-20 19:28:27.688 CET [3034] LOG:  received smart shutdown request
+2018-02-20 19:28:27.690 CET [3034] LOG:  background worker "logical replication launcher" (PID 3041) exited with exit code 1
+2018-02-20 19:28:27.701 CET [3036] LOG:  shutting down
+2018-02-20 19:28:27.702 CET [3036] LOG:  checkpoint starting: shutdown immediate
+2018-02-20 19:28:27.709 CET [3036] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.000 s, total=0.007 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=4875533 kB
+2018-02-20 19:28:27.783 CET [3034] LOG:  database system is shut down
