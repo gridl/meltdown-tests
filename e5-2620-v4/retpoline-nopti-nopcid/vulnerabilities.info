@@ -1,0 +1,4 @@
+
+meltdown Vulnerable
+spectre_v1 Mitigation: __user pointer sanitization
+spectre_v2 Mitigation: Full generic retpoline

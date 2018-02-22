@@ -1,0 +1,10 @@
+transaction type: <builtin: simple update>
+scaling factor: 10000
+query mode: prepared
+number of clients: 16
+number of threads: 16
+duration: 1800 s
+number of transactions actually processed: 5583015
+latency average = 5.159 ms
+tps = 3101.663416 (including connections establishing)
+tps = 3101.669201 (excluding connections establishing)

@@ -1,0 +1,42 @@
+dropdb: database removal failed: ERROR:  database "test" does not exist
+===== scale 100 =====
+2018-02-18 14:53:01 : read-only run 1
+2018-02-18 14:58:02 : read-only run 2
+2018-02-18 15:03:02 : read-only run 3
+2018-02-18 15:08:02 : read-only run 1 (prepared)
+2018-02-18 15:13:02 : read-only run 2 (prepared)
+2018-02-18 15:18:02 : read-only run 3 (prepared)
+2018-02-18 15:23:02 : read-write run 1
+2018-02-18 15:53:02 : read-write run 2
+2018-02-18 16:23:02 : read-write run 3
+2018-02-18 16:53:02 : read-write run 1 (prepared)
+2018-02-18 17:23:02 : read-write run 2 (prepared)
+2018-02-18 17:53:02 : read-write run 3 (prepared)
+dropdb: database removal failed: ERROR:  database "test" does not exist
+===== scale 1000 =====
+2018-02-18 18:28:31 : read-only run 1
+2018-02-18 18:33:31 : read-only run 2
+2018-02-18 18:38:31 : read-only run 3
+2018-02-18 18:43:31 : read-only run 1 (prepared)
+2018-02-18 18:48:31 : read-only run 2 (prepared)
+2018-02-18 18:53:31 : read-only run 3 (prepared)
+2018-02-18 18:58:31 : read-write run 1
+2018-02-18 19:28:31 : read-write run 2
+2018-02-18 19:58:31 : read-write run 3
+2018-02-18 20:28:31 : read-write run 1 (prepared)
+2018-02-18 20:58:31 : read-write run 2 (prepared)
+2018-02-18 21:28:31 : read-write run 3 (prepared)
+dropdb: database removal failed: ERROR:  database "test" does not exist
+===== scale 10000 =====
+2018-02-18 23:14:45 : read-only run 1
+2018-02-18 23:19:45 : read-only run 2
+2018-02-18 23:24:45 : read-only run 3
+2018-02-18 23:29:45 : read-only run 1 (prepared)
+2018-02-18 23:34:45 : read-only run 2 (prepared)
+2018-02-18 23:39:45 : read-only run 3 (prepared)
+2018-02-18 23:44:45 : read-write run 1
+2018-02-19 00:14:45 : read-write run 2
+2018-02-19 00:44:45 : read-write run 3
+2018-02-19 01:14:45 : read-write run 1 (prepared)
+2018-02-19 01:44:45 : read-write run 2 (prepared)
+2018-02-19 02:14:46 : read-write run 3 (prepared)

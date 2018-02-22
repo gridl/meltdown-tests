@@ -1,0 +1,10 @@
+transaction type: <builtin: select only>
+scaling factor: 100
+query mode: simple
+number of clients: 16
+number of threads: 16
+duration: 300 s
+number of transactions actually processed: 62171675
+latency average = 0.077 ms
+tps = 207238.755512 (including connections establishing)
+tps = 207240.950984 (excluding connections establishing)
